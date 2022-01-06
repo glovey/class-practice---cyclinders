@@ -9,7 +9,7 @@ class Cylinder:
   def volume(self):
     return 3.14 * self.radius**2*self.height
   def surface_area(self):
-    return 2* 3.14 * self.radius*self.height + 2*3.14*self.radius**2
+    return 2 * 3.14 * self.radius * self.height + 2 * 3.14 * self.radius**2
 
 c = Cylinder(2,3)
 print (c.volume())
